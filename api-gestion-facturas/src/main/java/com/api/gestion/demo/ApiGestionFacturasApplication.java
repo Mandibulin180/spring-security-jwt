@@ -1,13 +1,13 @@
-package com.springsercurity;
+package com.api.gestion.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringSercurityApplication {
+public class ApiGestionFacturasApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringSercurityApplication.class, args);
+		SpringApplication.run(ApiGestionFacturasApplication.class, args);
 	}
 
 }

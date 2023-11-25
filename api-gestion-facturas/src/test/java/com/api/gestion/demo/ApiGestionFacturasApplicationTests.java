@@ -1,10 +1,10 @@
-package com.springsercurity;
+package com.api.gestion.demo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringSercurityApplicationTests {
+class ApiGestionFacturasApplicationTests {
 
 	@Test
 	void contextLoads() {
