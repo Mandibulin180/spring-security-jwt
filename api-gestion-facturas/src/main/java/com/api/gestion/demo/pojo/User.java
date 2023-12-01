@@ -1,6 +1,5 @@
 package com.api.gestion.demo.pojo;
 
-import java.io.Serializable;
 
 import org.hibernate.annotations.DynamicInsert;
 import org.hibernate.annotations.DynamicUpdate;
@@ -14,7 +13,7 @@ import jakarta.persistence.NamedQuery;
 import jakarta.persistence.Table;
 import lombok.Data;
 
-@NamedQuery(name = "User.findByEmail",query = "select u from User where u.email=:email")
+@NamedQuery(name = "User.findByEmail",query = "select u from User u where u.email=:email")
 @Data
 @Entity
 @DynamicUpdate
